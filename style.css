@@ -75,7 +75,6 @@ background: rgba(51, 51, 51, 0.8);
     color: #f2f2f2;
 }
 
-
 /* footer */
 footer {
     z-index: 10;
@@ -145,7 +144,7 @@ footer .copyright {
     color: #cccccc;
 }
 
-/* home page */
+/* home page*/
 #homebg {
     background-image: url("imgs/bg.png");
     background-position: center;
@@ -325,7 +324,6 @@ footer .copyright {
 .charaselecttab span {
     color: #f2f2f2;
 }
-
 
 .charainfo {
     flex-basis: 80%;
