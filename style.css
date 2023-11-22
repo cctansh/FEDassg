@@ -310,11 +310,44 @@ footer .copyright {
 .articles .mainarticle {
     flex-basis: 100%;
     height: 90%;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
     font-size: 1.5em;
 }
 
-.articles .subarticle {
-    flex: 0 32%;
-    min-height: 33%;
-    font-size: 1.2em;
+.articleimg {
+    grid-row: 1 / 6;
+    min-width: 0;
+    min-height: 0;
+}
+.articleimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.articletext {
+    grid-row: 6 / 7;
+    margin-top: -3%;
+    margin-bottom: -1.5%;
+    margin-left: 2%;
+    min-width: 0;
+    min-height: 0;
+    max-height: 100%;
+    word-wrap: break-word;
+}
+
+.articletext h1 {
+    font-size: 1.5em;
+}
+
+.time {
+    color:#cccccc;
+    margin-top: -3.5%;
+    font-size: 0.8em;
+}
+
+.articletext .content {
+    margin-top: -1.5%;
+    font-size: 0.9em;
 }
