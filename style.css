@@ -10,6 +10,7 @@ body {
 
 /* navbar */
 .navbar {
+    z-index: 9;
     position: fixed;
     top: 0;
     width: 100%;  
@@ -53,6 +54,8 @@ body {
 
 /* footer */
 footer {
+    z-index: 10;
+    position: relative;
     background-color: #333;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
