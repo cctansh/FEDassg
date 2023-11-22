@@ -1,3 +1,4 @@
+/* navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -37,4 +38,72 @@
 .navbar #download:hover {
     background-color: #b8920d;
     color: #f2f2f2;
+}
+
+
+/* footer */
+footer {
+    background-color: #333;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* to edit */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+footer nav a {
+    text-decoration: none;
+    margin: 1% 2%;
+}
+
+.sociallink {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0 3%;
+}
+
+#socials a {
+    color: #f2f2f2;
+    font-size: 1.2em;
+    padding-left: 8px;
+}
+
+#socials a:hover {
+    color: #b1b1b1;
+}
+
+#socials img {
+    height: 1.2em;
+    width: auto;
+}
+
+#companyinfo a {
+    color: #cccccc;
+    font-size: 1em;
+}
+
+#companyinfo a:hover {
+    color: #858585;
+}
+
+footer #companylogo img {
+    padding-top: 4px;
+    width: 14em;
+    height: auto;
+}
+
+footer .copyright {
+    font-size: 0.8em;
+    color: #cccccc;
 }
