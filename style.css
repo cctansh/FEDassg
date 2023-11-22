@@ -42,7 +42,7 @@ background: rgba(51, 51, 51, 0.8);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* to edit */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
 .navbar a {
@@ -82,7 +82,7 @@ footer {
     background-color: #333;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* to edit */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -99,6 +99,12 @@ footer nav {
 footer nav a {
     text-decoration: none;
     margin: 1% 2%;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .sociallink {
@@ -124,6 +130,12 @@ footer nav a {
     width: auto;
 }
 
+#companyinfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 #companyinfo a {
     color: #cccccc;
     font-size: 1em;
@@ -142,6 +154,7 @@ footer #companylogo img {
 footer .copyright {
     font-size: 0.8em;
     color: #cccccc;
+    word-wrap: break-word;
 }
 
 /* home page*/
