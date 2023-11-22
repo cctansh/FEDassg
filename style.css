@@ -319,6 +319,40 @@ footer .copyright {
     margin-top: 12em;
     height: 50%;
     background-color: rgba(46, 50, 69, 0.8);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.charainfo .charahead {
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    color: #f2f2f2;
+    font-size: 3em;
+    text-shadow: 0 0 1px rgba(46, 50, 69), 0 0 1px rgba(46, 50, 69), 0 0 1px rgba(46, 50, 69), 0 0 1px rgba(46, 50, 69), 0 0 1px rgba(46, 50, 69);
+}
+
+.charainfo .charatxt {
+    color: #f2f2f2;
+    flex-basis: 75%;
+    margin: 3%;
+    margin-top: 4%;
+    overflow-y: auto;
+    padding-right: 1%;
+}
+
+.charainfo .charaimg {
+    flex-basis: 20%;
+    flex-shrink: 0.25;
+    margin-right: 5%;
+    margin-top: -20%;
+    margin-bottom: -2.5%;
+}
+
+.charainfo .charaimg img {
+    max-height: 100%;
 }
 
 /* news page */
