@@ -174,3 +174,54 @@ footer .copyright {
     align-items: center;
     justify-content: center;
 }
+
+
+.infopage {
+    margin-top: 5.5em;
+    margin-bottom: 3em;
+    width: 90%;
+    background-color: rgba(46, 50, 69, 0.8);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 80%;
+}
+
+.infopage .text {
+    font-size: 1.1em;
+    padding-right: 10px;
+    padding-left: 3%;
+    flex-basis: 40%;
+    flex-shrink: 2;
+    color: #f2f2f2;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+.infopage .previewimg {
+    margin: 3% 3%;
+    flex-basis: 55%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.previewimg .mainimg {
+    height: 50%;
+}
+
+.previewimg .sideimg {
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.previewimg .mainimg img {
+    max-width: 100%;
+}
+.previewimg .sideimg img {
+    max-width: 100%;
+}
