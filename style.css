@@ -8,6 +8,30 @@ body {
     height: 100%;
 }
 
+body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+::-webkit-scrollbar {
+width: 5px;
+}
+
+::-webkit-scrollbar-track {
+background: rgb(255, 255, 255, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+background: rgba(135, 135, 135, 0.8);
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: rgba(51, 51, 51, 0.8);
+}
+
 /* navbar */
 .navbar {
     z-index: 9;
