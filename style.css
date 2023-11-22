@@ -403,8 +403,22 @@ footer .copyright {
     align-items: center;
 }
 
+.breadcrumbs {
+    margin-top: 5.3em;
+    margin-bottom: 0.2em;
+    width: 85%;
+}
+
+.breadcrumbs a {
+    text-align: left;
+    color: #fff;
+}
+
+.breadcrumbs a:hover {
+    color: #cccccc;
+}
+
 .newsarticle {
-    margin-top: 5.5em;
     margin-bottom: 2.5em;
     width: 85%;
     background-color: rgba(46, 50, 69, 0.8);
