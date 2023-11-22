@@ -287,6 +287,20 @@ footer .copyright {
     align-items: center;
 }
 
+.filter {
+    margin-top: 5.5em;
+    margin-bottom: 0.5em;
+    width: 85%;
+}
+
+.filter span {
+    text-align: left;
+    padding: 0.3% 1%;
+    background-color: rgba(46, 50, 69, 0.8);
+    color: #f2f2f2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .articles {
     margin-bottom: 2.5em;
     padding-right: 0.5%;
