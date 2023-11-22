@@ -289,6 +289,29 @@ footer .copyright {
     object-fit: cover;
 }
 
+@media (max-width: 576px) {
+    .infopage {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .infopage .mainimg {
+        order: 1;
+        flex-basis: 45%;
+    }
+
+    .infopage .sideimg {
+        order: 2;
+        flex-basis: 15%;
+    }
+
+    .infopage .text {
+        order: 3;
+        flex-basis: 40%;
+    }
+}
+
 /* character page */
 
 #charabg {
