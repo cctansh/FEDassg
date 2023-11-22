@@ -321,7 +321,7 @@ footer .copyright {
 /* character page */
 
 #charabg {
-    background-image: url("imgs/bg.png"); /*to edit*/
+    background-image: url("imgs/bg3.png"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -368,6 +368,13 @@ footer .copyright {
 
 .charaselecttab span {
     color: #f2f2f2;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.charaselecttab:hover {
+    background-color: rgba(46, 50, 69);
+    cursor: pointer;
 }
 
 .charainfo {
@@ -386,12 +393,15 @@ footer .copyright {
     top: -10%;
     left: 5%;
     color: #f2f2f2;
-    font-size: 3em;
+    font-size: 3.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 0 0 1px rgba(46, 50, 69), 0 0 1px rgba(46, 50, 69), 0 0 1px rgba(46, 50, 69), 0 0 1px rgba(46, 50, 69), 0 0 1px rgba(46, 50, 69);
 }
 
 .charainfo .charatxt {
     color: #f2f2f2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
     flex-basis: 75%;
     margin: 3%;
     margin-top: 4%;
