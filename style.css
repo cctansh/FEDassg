@@ -121,7 +121,7 @@ footer .copyright {
     color: #cccccc;
 }
 
-/* home */
+/* home page */
 #homebg {
     background-image: url("imgs/bg.png");
     background-position: center;
@@ -161,4 +161,16 @@ footer .copyright {
 
 #platforms a:hover img {
     opacity: 1;
+}
+
+/* about page */
+#abtbg {
+    background-image: url("imgs/bg.png"); /*to edit */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
