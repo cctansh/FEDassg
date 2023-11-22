@@ -274,6 +274,19 @@ footer .copyright {
     object-fit: cover;
 }
 
+/* character page */
+
+#charabg {
+    background-image: url("imgs/bg.png"); /*to edit*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* news page */
 
 #newsbg {
