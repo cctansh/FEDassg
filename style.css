@@ -172,6 +172,7 @@ footer .copyright {
 
 #homebg img {
     padding-top: 20%;
+    max-width: 100%;
 }
 
 #platforms {
@@ -179,6 +180,7 @@ footer .copyright {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
 }
 
 #platforms a {
@@ -477,7 +479,7 @@ footer .copyright {
 /* news page */
 
 #newsbg {
-    background-image: url("imgs/bg4.png"); 
+    background-image: url("imgs/bg4.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
