@@ -29,12 +29,14 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- [HTML](https://html.spec.whatwg.org)
+    - HTML is used to create the website frame.
+- [CSS](https://www.w3.org/TR/CSS/#css)
+    - CSS is used to visually style the website.
+- [Javascript](https://ecma-international.org/publications-and-standards/standards/ecma-262/)
+    - Javascript is used to add basic functionalities to the website (see Features)
+- [Clip Studio Paint](https://www.clipstudio.net/en/?gad_source=1&gclid=EAIaIQobChMIsq_ej8jZggMVP6lmAh2fiAgbEAAYASAAEgK6PvD_BwE)
+    - Art program used to create/edit the website images.
 
 ## Testing
 Project has accounted for all width changes, and will change to mobile layout (as drawn in wireframe) at appropriate widths. However, at very short heights, project elements will begin to overlap, and may be cut off.
