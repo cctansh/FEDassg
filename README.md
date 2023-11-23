@@ -15,7 +15,15 @@ Wireframe for desktop and mobile layouts is included in the folder as "FED_10260
 ## Features
 
 ### Existing Features
+- Download links to the game on all available platforms.
+- An introduction to the general premise of the game, including basic information such as gameplay, genre, features, etc., alongside in-game screenshots.
+- A basic introduction to the game characters.
+- A news page to show updates on game events, updates, sales, etc.
+- Breadcrumbs on the news article pages for easy navigation back to the main news page.
+- Responsive layout using flex and media queries.
+- Links to external sites that open in a new tab.
 - Navigation bar turns into a hamburger menu in mobile layout, which can be opened and collapsed to show navigation sections.
+- Switching between images and character bios by clicking on image thumbnails/select tabs.
 
 ### Features Left to Implement
 - A filter button on the News page, that will categorise and filter articles by category (category examples: events, sales, in game updates, etc.)
