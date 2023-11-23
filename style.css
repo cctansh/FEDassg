@@ -54,7 +54,7 @@ background: rgba(51, 51, 51, 0.8);
 
 .navbar a:hover {
     color: #b1b1b1;
-  }
+}
 
 .navbar .button {
     padding: 1em 3%;
@@ -108,8 +108,45 @@ background: rgba(51, 51, 51, 0.8);
         color: #f2f2f2;
     }
 
-    .mobilenavbar #hamburger {
-        
+    .mobilenavbar #hamburger:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+    .navmenu li {
+        list-style: none;
+    }
+    
+    .navmenu a {
+        text-decoration: none;
+    }    
+
+    .navmenu {
+        position: fixed;
+        top: 100%;
+        left: -2.5em;
+        flex-direction: column;
+        background-color: rgba(51, 51, 51, 0.7);
+        width: 100%;
+        text-align: center;
+    }
+
+    .navmenu.active {
+        top: 3.7em;
+    }
+
+    .navitem {
+        padding: 1.5em 0;
+        border-top: 1px solid white;
+    }
+
+    .navitem .navlink {
+        color: #f2f2f2;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+    .navitem .navlink:hover {
+        color: #b1b1b1;
     }
 }
 
