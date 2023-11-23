@@ -37,20 +37,11 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 ## Testing
+Project has accounted for all width changes, and will change to mobile layout (as drawn in wireframe) at appropriate widths. However, at very short heights, project elements will begin to overlap, and may be cut off.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Project is designed to look and function the same on most browsers. There may be visual differences depending on whether browser supports webkit functionality. 
+Confirmed to be fully functional on modern Chromium and Microsoft Edge browsers.
+A notable bug appears on Firefox, where character page will display incorrectly (character info displayed too far too the left), and will not display on shorter widths entirely.
 
 ## Credits
 
@@ -85,5 +76,4 @@ If this section grows too long, you may want to split it off into a separate fil
 - News Article images taken from the respective article on the [Serenes Forest forums](https://serenesforest.net/2023/03/30/fire-emblem-heroes-legendary-yuri-pops-in-from-underground/).
 
 ### Acknowledgements
-
 - I received inspiration for this project from the [Genshin Impact website](https://genshin.hoyoverse.com/en/home) and [Fire Emblem Heroes](https://fire-emblem-heroes.com/en/).
