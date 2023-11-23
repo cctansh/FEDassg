@@ -1,9 +1,7 @@
-# Your Project's Name
+# FED Assignment 1
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+This is a website providing information regarding a fictional game. It will help new players by providing general information about the game (gameplay, plot, characters), as well as easily accesible download links. It will also appeal to existing players through a section including the latest news and updates on the game. It will also link to any other resources (social media platforms) regarding the game, serving as a covenient hub for all game-related information and sources.
 
-Essentially, this part is your sales pitch.
- 
 ## Design Process
  
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -17,16 +15,13 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
+- 
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
-- Another feature idea
+- A filter button on the News page, that will categorise and filter articles by category (category examples: events, sales, in game updates, etc.)
 
 ## Technologies Used
 - [HTML](https://html.spec.whatwg.org)
