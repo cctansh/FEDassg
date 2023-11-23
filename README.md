@@ -4,21 +4,18 @@ This is a website providing information regarding a fictional game. It will help
 
 ## Design Process
  
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- As a new player, I want to learn more general information about the game to see if it will interest me, and download the game on my preferred platform. This project contains easy and convenient access to a basic summary of all relevant information, such as a non-spoilered plot overview, introduction to gameplay, and brief character overviews. It also contains download links to the game on all available platforms.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- As an existing player, I want to always be on-top of the most updated information relating to the game. This project contains a dedicated news section for the game developers to reliably disseminate the most up-to-date and relevant news about the game, that I can look at. I can also follow the conveniently provided links to any additional, external sources of information.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+- As a website user, I want to be able to very quickly and conveniently navigate around the website, and have it functioning on any device and browser I may use. I also want to be able to read the text with ease. This website has a navigation bar at the top that is always on screen and simple to use, and contains responsive HTML/CSS design. Text sizes are relatively large, and adhere to rules of colour contrast.
+
+Wireframe for desktop and mobile layouts is included in the folder as "FED_10260078J_TanSiHueiChloe_Assg1_Wireframe.png"
 
 ## Features
 
 ### Existing Features
-- 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Navigation bar turns into a hamburger menu in mobile layout, which can be opened and collapsed to show navigation sections.
 
 ### Features Left to Implement
 - A filter button on the News page, that will categorise and filter articles by category (category examples: events, sales, in game updates, etc.)
