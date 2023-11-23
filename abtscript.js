@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener("load", function() {
     var mainImg = document.getElementById('main');
 
     document.getElementById('prev1').onclick = function() {
@@ -13,4 +13,4 @@ window.onload = function() {
     document.getElementById('prev4').onclick = function() {
         mainImg.src = 'imgs/preview4.png';
     };
-};
+})

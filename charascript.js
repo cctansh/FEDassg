@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener("load", function() {
     var charaImg = document.getElementById('charaimgID');
     var charaName = document.getElementById('charaname');
     var charaDesc = document.getElementById("charadesc");
@@ -40,5 +40,4 @@ window.onload = function() {
         <br>
         Through his deeds across the two wars, Marth developed a reputation as a legendary hero. He was believed by many to be destined to lead all of Archanea to salvation, as represented by his use of the legendary Fire Emblem. In time the continent of Archanea came to be united under his rule, and he became renowned throughout history as the legendary "Hero-King" of the Archanean Alliance.`
     };
-};
-
+})
