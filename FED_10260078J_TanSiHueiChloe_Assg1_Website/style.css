@@ -447,9 +447,9 @@ footer .copyright { /* copyright text */
 .charainfo {
     flex-basis: 80%;
     margin-top: 12em;
-    height: 50%;
+    height: 50%; /* sets chara bio to take up half the page */
     background-color: rgba(46, 50, 69, 0.8);
-    display: flex;
+    display: flex; /* arranges chara bio and chara img */
     flex-direction: row;
     flex-wrap: nowrap;
     position: relative;
@@ -480,7 +480,7 @@ footer .copyright { /* copyright text */
     flex-basis: 20%;
     flex-shrink: 0.25;
     margin-right: 5%;
-    margin-top: -20%;
+    margin-top: -20%; /* margin top & bottom allows chara img to overlap over bio */
     margin-bottom: -2.5%;
 }
 
