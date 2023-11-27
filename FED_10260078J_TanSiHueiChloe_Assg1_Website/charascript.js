@@ -1,8 +1,10 @@
 window.addEventListener("load", function() {
+    //get main character image, name, description
     var charaImg = document.getElementById('charaimgID');
     var charaName = document.getElementById('charaname');
     var charaDesc = document.getElementById("charadesc");
 
+    // changes to respective character by clicking on select tab
     document.getElementById('tab1').onclick = function() {
         charaImg.src = 'imgs/chara1.png';
         charaName.innerHTML = 'ALEAR';

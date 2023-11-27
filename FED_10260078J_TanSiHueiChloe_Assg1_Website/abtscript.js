@@ -1,6 +1,8 @@
 window.addEventListener("load", function() {
-    var mainImg = document.getElementById('main');
+    // gets abt main img
+    var mainImg = document.getElementById('main'); 
 
+    // clicking preview thumbnails will change main img
     document.getElementById('prev1').onclick = function() {
         mainImg.src = 'imgs/preview1.png';
     };
